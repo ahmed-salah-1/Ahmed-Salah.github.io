@@ -1,177 +1,326 @@
-# 👋 Hi, I'm Ahmed Salah
+# Ahmed Salah
 
-### ☁️ Cloud Engineer | DevOps | Data Engineering
+### Cloud & DevOps Engineer | Data Engineering
 
-I'm a Computer Engineering graduate interested in **Cloud Computing, DevOps, Data Engineering, and Infrastructure**.
+Computer Engineering graduate focused on **Cloud Computing, DevOps, Infrastructure, and Data Engineering**.
 
-I enjoy building scalable systems, automating infrastructure, working with cloud platforms, and designing data pipelines.
+I enjoy building reliable cloud infrastructure, automating deployments, designing data pipelines, and working with distributed systems. I’m continuously developing my skills across **AWS, Azure, Linux, Docker, Kubernetes, CI/CD, and modern data engineering technologies**.
 
----
-
-## 🚀 About Me
-
-* 🎓 B.Sc. Computer Engineering — Zagazig University
-* ☁️ AWS Certified Solutions Architect – Associate
-* ⚙️ AWS Certified SysOps Administrator – Associate
-* 🐳 Interested in Docker, Kubernetes & CI/CD
-* ☁️ Working with AWS & Microsoft Azure
-* 📊 Interested in Data Engineering & Big Data
-* 🐧 Linux & Infrastructure enthusiast
-* 🔧 Currently improving my Cloud & DevOps skills
+**[GitHub] [LinkedIn] [Download Resume] [Contact Me]**
 
 ---
 
-## 🛠️ Technical Skills
+## About Me
 
-### ☁️ Cloud
+I’m a **Computer Engineering graduate from Zagazig University** with a strong interest in cloud infrastructure, DevOps, and data engineering.
 
-<p>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
-</p>
+My technical experience includes building real-time data pipelines, containerized applications, monitoring environments, and AI-powered applications using modern cloud and open-source technologies.
 
-### ⚙️ DevOps & Infrastructure
+I’m particularly interested in how infrastructure, automation, and data systems work together to build **scalable, reliable, and production-ready solutions**.
 
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-</p>
+### What I Focus On
 
-### 💻 Programming
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-</p>
-
-### 📊 Data Engineering
-
-<p>
-  <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-</p>
+* ☁️ Cloud infrastructure and architecture
+* ⚙️ DevOps and infrastructure automation
+* 🐧 Linux and system administration
+* 🔄 CI/CD and containerization
+* 📊 Data engineering and real-time pipelines
+* 🌐 Networking and distributed systems
+* 🛡️ Cloud security and high availability
 
 ---
 
-## 📌 Featured Projects
+## Certifications
 
-### 🐟 Real-Time IoT Data Pipeline
+### AWS Certified Solutions Architect – Associate
 
-A real-time data pipeline for processing IoT sensor data.
+**Amazon Web Services**
 
-**Technologies:**
+Focused on designing secure, reliable, and scalable architectures on AWS.
 
-`Python` `Apache Kafka` `Apache Airflow` `MongoDB` `Docker`
+### AWS Certified SysOps Administrator – Associate
 
-**Pipeline:**
+**Amazon Web Services**
+
+Focused on deploying, managing, monitoring, and operating workloads on AWS.
+
+---
+
+## Technical Skills
+
+### Cloud Platforms
+
+`AWS` `Microsoft Azure`
+
+**AWS:**
+EC2 · VPC · IAM · S3 · RDS · CloudWatch · Route 53 · Load Balancing · Auto Scaling
+
+**Azure:**
+Azure Fundamentals · Azure Infrastructure · Azure Services
+
+### DevOps & Infrastructure
+
+`Linux` `Docker` `Kubernetes` `Git` `GitHub` `CI/CD` `Terraform`
+
+* Containerization
+* Infrastructure automation
+* Continuous Integration / Continuous Deployment
+* System administration
+* Monitoring and observability
+* High availability
+* Networking
+
+### Data Engineering
+
+`Python` `SQL` `Apache Kafka` `Apache Airflow` `MongoDB`
+
+* Real-time data pipelines
+* Data ingestion
+* Data processing
+* Workflow orchestration
+* Big Data concepts
+* Data governance
+* NoSQL databases
+
+### Programming & Tools
+
+`Python` `C++` `SQL` `Bash`
+
+`Git` `GitHub` `VS Code` `Linux`
+
+---
+
+# Featured Projects
+
+## 🐟 Real-Time IoT Data Pipeline
+
+A real-time data engineering pipeline designed to ingest, stream, process, and store continuously generated IoT sensor data.
+
+### Architecture
 
 ```text
-IoT Sensors
-     ↓
-Kafka Producer
-     ↓
-Apache Kafka
-     ↓
-Kafka Connect
-     ↓
-MongoDB
-     ↓
-Data Processing
+        IoT Sensors
+             │
+             ▼
+      Python Producer
+             │
+             ▼
+       Apache Kafka
+             │
+             ▼
+       Kafka Connect
+             │
+             ▼
+          MongoDB
+             │
+             ▼
+       Data Processing
 ```
 
-🔗 [View Project](https://github.com/ahmed-salah-1/Data-Pipelline)
+### Technologies
+
+`Python` `Apache Kafka` `Kafka Connect` `Apache Airflow` `MongoDB` `Docker`
+
+### Key Features
+
+* Real-time IoT sensor data generation
+* Event streaming using Apache Kafka
+* Automated workflows using Apache Airflow
+* MongoDB data storage
+* Containerized infrastructure using Docker
+* Designed for continuous data ingestion and processing
+
+**[View Project →]**
 
 ---
 
-### 🤖 RAG AI Chatbot
+## 🤖 Document-Based RAG AI Chatbot
 
-A document-based AI chatbot that answers questions using information retrieved from a vector database.
+An AI-powered chatbot that answers questions using information retrieved from a user's document collection.
 
-**Technologies:**
+The system combines **Retrieval-Augmented Generation (RAG)** with vector similarity search to provide answers grounded in the available documents.
+
+### Technologies
 
 `Python` `LangChain` `ChromaDB` `Ollama` `LLM`
 
-Features:
+### Key Features
 
-* 📚 Document-based question answering
+* 📚 Document ingestion and retrieval
 * 🔎 Vector similarity search
 * 🧠 Retrieval-Augmented Generation
-* 🔒 Answers restricted to provided documents
+* 🔒 Responses restricted to available documents
+* 💬 Natural-language question answering
+* 🖥️ Local LLM inference using Ollama
 
-🔗 [View Project](https://github.com/ahmed-salah-1/Chatbot)
+### Architecture
+
+```text
+Documents
+    │
+    ▼
+Document Processing
+    │
+    ▼
+Embeddings
+    │
+    ▼
+ChromaDB
+    │
+    ▼
+User Question
+    │
+    ▼
+Similarity Search
+    │
+    ▼
+Relevant Documents
+    │
+    ▼
+Local LLM
+    │
+    ▼
+Grounded Answer
+```
+
+**[View Project →]**
 
 ---
 
+## 📈 Infrastructure Monitoring Stack
 
+A containerized monitoring environment for collecting and visualizing infrastructure metrics.
 
-## 🏆 Certifications
+### Technologies
 
-| Certification                                  | Issuer              |
-| ---------------------------------------------- | ------------------- |
-| AWS Certified Solutions Architect – Associate  | Amazon Web Services |
-https://drive.google.com/file/d/1NkJyVedE58ifGLwmdBbP3H1n7-QzRZ0p/view?usp=sharing
+`Prometheus` `Grafana` `Node Exporter` `Docker`
+
+### Key Features
+
+* System and infrastructure metrics collection
+* Prometheus-based monitoring
+* Grafana dashboards
+* Node-level resource monitoring
+* Containerized deployment
+* Infrastructure observability
+
+**[View Project →]**
 
 ---
 
-## 📚 Currently Learning
+# Experience & Training
+
+## DEPI — Data Engineering Track
+
+**Digital Egypt Pioneers Initiative**
+
+Six-month Data Engineering track focused on modern data platforms and engineering practices.
+
+### Key Areas
+
+* SQL and relational databases
+* Microsoft Azure
+* Data engineering concepts
+* Big Data
+* Data processing
+* Data governance
+* DevOps fundamentals
+* Scrum & Agile methodologies
+
+---
+
+## NTI — Cloud Computing Training
+
+Training focused on cloud computing concepts, infrastructure, and cloud technologies.
+
+---
+
+## Bank Misr — Data Science Internship
+
+Practical training in data science and machine learning concepts, including working with real-world data.
+
+---
+
+# Currently Developing
+
+I’m continuously expanding my skills toward **cloud infrastructure and production-level systems**.
+
+### Cloud
 
 ```text
 AWS
- ├── Cloud Infrastructure
+ ├── Architecture
  ├── Networking
  ├── Security
- └── High Availability
+ ├── High Availability
+ └── Operations
+```
 
+### DevOps
+
+```text
 DevOps
  ├── Docker
  ├── Kubernetes
  ├── CI/CD
- └── Terraform
+ ├── Terraform
+ └── Monitoring
+```
 
+### Data Engineering
+
+```text
 Data Engineering
  ├── Apache Kafka
  ├── Apache Airflow
+ ├── Data Pipelines
  ├── Big Data
  └── Data Governance
 ```
 
 ---
 
-## 📊 GitHub Stats
+# My Approach
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ahmed-salah-1&show_icons=true&theme=tokyonight" />
-</p>
+### Build
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmed-salah-1&theme=tokyonight" />
-</p>
+I enjoy turning ideas and requirements into working technical systems.
 
----
+### Automate
 
-## 🌐 Connect With Me
+I look for repetitive processes that can be automated through scripting, CI/CD, and infrastructure-as-code.
 
-<p>
-  <a href="https://www.linkedin.com/in/ahmed-salah-cse">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
+### Monitor
 
-  <a href="mailto:ahmed.cse.zu@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
+I believe reliable infrastructure requires proper observability, monitoring, and troubleshooting.
 
-  <a href="https://github.com/ahmed-salah-1">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
+### Learn
+
+Cloud and infrastructure technologies evolve constantly, so I continuously build projects and deepen my understanding through hands-on practice.
 
 ---
 
-<p align="center">
-  <i>☁️ Building reliable systems, one deployment at a time.</i>
-</p>
+# GitHub
+
+Explore my repositories, experiments, and infrastructure projects.
+
+**[View My GitHub →]**
+
+---
+
+# Let's Connect
+
+Interested in **Cloud, DevOps, Data Engineering, or Infrastructure**?
+
+I'm open to connecting with engineers, recruiters, and teams working on interesting technical challenges.
+
+**GitHub:** `github.com/ahmed-salah-1`
+
+**LinkedIn:** `Your LinkedIn URL`
+
+**Email:** `Your Email`
+
+---
+
+© 2026 Ahmed Salah. Built with HTML, CSS & JavaScript.
+
